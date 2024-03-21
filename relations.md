@@ -57,7 +57,7 @@ Examples:
     * A __LSF__ play a regulatory role in __disease__.
     * A __LSF__ has beneficial effect for the control of __disease__. 
     * A __LSF__ is associated with __disease__ treatment and control.
-    * A __LSF__ decreases/reduces/attentuates __disease__ (not the prevalence of __disease__).
+    * A __LSF__ decreases/reduces/attenuates __disease__ (not the prevalence of __disease__).
 
     3.1 Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_. Examples:
      * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
