@@ -153,15 +153,6 @@ Examples:
     
     Annotate as _LSF1 causes disease_, _LSF2 causes disease_ (for the first sentence) and no annotations between LSF1 and disease in the second sentence.
 
-
-10. Compared/comparison:
- a) if the comparison is between LSF/not having LSF or Dis/not having Dis then annotate only LSF to Dis with the appropriate relationship (not the not-LSF or not-Dis).
-
-   "The seizure rate was significantly higher in cocaine users (37 [26%] of 142 patients) than in non-cocaine users (151 [15.2%] of 992 patients, p = 0.001). → Annotate Positive SA between cocaine and seizure.
- b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied if the comparison were cancer/healthy controls or **do not annotate at all** if assuming is not possible.
-
-   "The proportion of patients working in professions with exposures to known carcinogens was 33.5% for lung cancer, and 17.1% for large bowel cancer (p=0.000)”. → carcinogens cause cancer, so since lung cancer patients were more likely to work in carcinogen exposed professions than LB cancer patients then it is safe to say that lung cancer is positively associated with carcinogens (no annotation for LB cancer).
-
 11. Annotate relationships even when they are not independent.
 12. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
    
