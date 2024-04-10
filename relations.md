@@ -87,8 +87,8 @@ Examples:
 ### What **NOT** to annotate:
 1. Hypothetical statements: 
 
-    “Here we study the link between LSF and disease”
-    "It is possible to suspect a relationship between ESRD and insecticides or pesticides".
+    “Here we study the link between LSF and disease”.\
+    "It is possible to suspect a relationship between ESRD and insecticides or pesticides".\
     "LSF might be involved in Dis". → Take context into consideration in case this is no more than a hypothesis.
     
 2. Tendency but no statistical significance : 
@@ -97,9 +97,9 @@ Examples:
 
 3. No statistical test implied/ no control group comparison:
     
-    “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior.
-    “A total of 45% of children receiving __LSF__ had no symptom recurrence of __disease__”. 
-    “In our study, __disease__ was very common in __LSF__ practitioners”.
+    “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior.\
+    “A total of 45% of children receiving __LSF__ had no symptom recurrence of __disease__”.\
+    “In our study, __disease__ was very common in __LSF__ practitioners”.\
     “In our study, 54% of cancer patients suffer from poor sleep and 34% of low energy”. → What is problematic is not the lack of a significance report but the **absence of a control group** implication in all above cases. We cannot make an assumption that a statistical test was actually performed.
 
     _or_
@@ -133,11 +133,11 @@ Examples:
 
 5. Be careful with an occupation + a clause with LSFs. 
 
-    In the following examples, farmers __should not__ be linked with acute lymphatic or chronic lymphatic leukemia. 
+    In the following examples, farmers __should not__ be linked with acute lymphatic or chronic lymphatic leukemia.\ 
 
-    “Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic”.
+    “Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic”.\
 
-    “Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia”.
+    “Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia”.\
 
 6. Annotate what the sentence says, even if there are contradictory statement. Example:
     
@@ -160,7 +160,7 @@ Examples:
  a) if the comparison is between LSF/not having LSF or Dis/not having Dis then annotate only LSF to Dis with the appropriate relationship (not the not-LSF or not-Dis).
 
    “The seizure rate was significantly higher in cocaine users (37 [26%] of 142 patients) than in non-cocaine users (151 [15.2%] of 992 patients, p = 0.001)”. → Annotate Positive SA between cocaine and seizure.
- b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied if the comparison were cancer/healthy controls or **do not annotate at all** if assuming is not possible.
+ b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied if the comparison were cancer/healthy controls or **do not annotate at all** if assuming is not possible.\
 
    “The proportion of patients working in professions with exposures to known carcinogens was 33.5% for lung cancer, and 17.1% for large bowel cancer (p=0.000)”. → carcinogens cause cancer, so since lung cancer patients were more likely to work in carcinogen exposed professions than LB cancer patients then it is safe to say that lung cancer is positively associated with carcinogens (no annotation for LB cancer)”.
 
