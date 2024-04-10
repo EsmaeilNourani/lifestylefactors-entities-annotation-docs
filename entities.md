@@ -52,9 +52,9 @@ There are two levels in the annotation process that the annotators should keep i
 
 * If an LSF is a part of non-LSF entity (e.g. _substance abuse_ in __substance abuse disorder__ or _chicken_ in __chicken embryo__ or _tobacco_ in __tobacco industry__), it should be annotated as LSF with the attribute: "LSF out of context".
 
-* Top-level terms (e.g. nutrition) should be annotated.
+* Top-level terms (e.g. nutrition) should be annotated even if relationships cannot be annotated for these terms.
 
-* Standalone adjectives that are not part of named entities should not be annotated (e.g. nutritional, occupational etc).
+* Standalone adjectives that are not part of named entities should not be annotated (e.g. nutritional, occupational etc). Forms that describe a Disease but are not a part of nomenclature should not be annotated (e.g in "pediatric respiratory disease" "pediatric" is not annotated). 
 
 * Chemical terms should be annotated as standalone entities, and “exposure” is not necessarily annotated as part of these named entities.
 
@@ -78,8 +78,8 @@ There are two levels in the annotation process that the annotators should keep i
   * serum Vitamin D 25-OH levels
   * fasting glucose
 
-* Score/index score/index related to LSF can be annotated as LSF. Examples:
-  * sleep quality score
+* Score/index related to diseases can be annotated as disease and score/index related to LSF can be annotated as LSF. The word score or index is part of the NE. Examples:
+  * Mediterranean Diet Quality Index or MDQI
 
 * Do not annotate treatments as LSFs. The only form of treatment that is annotated is psychotherapy and entities related to it (e.g., CBT therapy) or treatments with a cosmetic effect (e.g. liposuction).
 
