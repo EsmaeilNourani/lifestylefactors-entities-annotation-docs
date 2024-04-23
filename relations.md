@@ -30,8 +30,10 @@ Examples:
 2. Statistically associated relationship: _LSF is statistically associated with disease_. 
 Examples:
     * A __LSF__ is associated with a __disease__.
+    * A __LSF__ is associated with the development of __disease__.
     * A __LSF__ is associated with the risk of a __disease__.
     * A __LSF__ is associated with __disease__ treatment and control.
+    * A __LSF__ has a role in/effect on a __disease__.
 
     2.1 Positive statistical association:
       * A __LSF__ increases the risk of a __disease__.
@@ -39,13 +41,14 @@ Examples:
       * A __LSF__ carries a risk of a __disease__.
       * A __LSF__ is a predictor of a __disease__.
       * A __disease__ is characterized by a __LSF__.
-      * survivors/patients with __disease__ were more had/likely to be __LSF__.
+      * __disease__ patients were more likely to practice __LSF__ than controls.
       * A __LSF__ increases incidence of a __disease__.
-      * A __LSF__ increases prevalence of a __disease__. But prevalence without any statistical significance testing should not be annotated.
+      * A __LSF__ increases the risk of developing a __disease__.
+      * A __LSF__ increases prevalence of a __disease__.
       * A __LSF__ contributes to the burden of a __disease__.
-      * A __LSF__ is linked/connected to a __disease__. (implies positive direction and is always used as such)
+      * A __LSF__ is linked/connected to a __disease__. &rarr; (implies positive direction and is always used as such)
       * A __LSF__ should be considered during risk stratification for a __disease__.
-      * The prevalence of __LSF__ was higher in __disease__ patients than in controls. → (such a **comparative** mention in abstracts implies significance in the majority of cases even when significance is omitted. Comparative prevalence numbers (x % vs x'%) can also work).
+      * The prevalence of __LSF__ was higher in __disease__ patients than in controls. &rarr; (such a **comparative** mention in abstracts implies significance in the majority of cases even when significance is omitted. Comparative prevalence numbers (x % vs x'%) can also work).
 
 
 
@@ -61,7 +64,7 @@ Examples:
     * A __LSF__ play a regulatory role in __disease__.
     * A __LSF__ has beneficial effect for the control of __disease__.
     * A __LSF__ improves survival outcomes in __disease__.
-    * A __LSF__ decreases/reduces/attenuates __disease__ (not the prevalence of __disease__).
+    * A __LSF__ decreases/reduces/attenuates __disease__ &rarr; (not the prevalence of __disease__).
 
     3.1 Prevents relationship: _LSF prevents disease_ / _disease prevents LSF_. Examples:
      * A __LSF__ is therefore imperative for preventing a __disease__ morbidity and mortality.
