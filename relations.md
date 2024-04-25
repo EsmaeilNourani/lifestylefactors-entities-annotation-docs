@@ -173,10 +173,10 @@ Examples:
    
    “__SO2__ was also significantly associated with __birth defects__ in the second month before the pregnancy (aOR = 1.31; 95% CI: 1.20 ~ 3.22)”.
 
-13. * A __LSF__ used as defense for a __disease__. → annotate either as treats or prevents according to context.
+13. A __LSF__ used as defense for a __disease__. → annotate either as treats or prevents according to context.
       
 14. Annotate LSF and **Disease mortality** associations as LSF and **Disease**.
-15. Annotate positive/negative statistical association in mentions such as these:
+    
 
     
 
