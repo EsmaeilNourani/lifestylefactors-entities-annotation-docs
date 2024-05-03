@@ -11,11 +11,11 @@ Definition for Lifestyle (LSF):
 
 Lifestyle is a complex and multifaceted concept that involves many different factors. It can be defined as the behaviors, habits, and daily activities that individuals engage in, which can impact their health and well-being. Within the context of lifestyle, there are several categories that can be distinguished and annotated, including:
 
-1. __Beauty and cleaning practices:__ Activities related to "hygiene" (e.g. “shower daily”), “use of cosmetic and cleaning products” as well as invasive procedures that people undergo to improve their appearance, such as “cosmetic surgery”. 
+1. __Personal care products and cosmetic procedures:__ Activities related to "hygiene" (e.g. “shower daily”), “use of cosmetic and cleaning products” as well as invasive procedures that people undergo to improve their appearance, such as “cosmetic surgery”. 
 
 2. __Nutrition:__ Coveres different branches including "Dietary habits", "Food groups", "Fooe processing and prepartion", "Macronutrients", and "Micronutrients". 
 
-3. __Drugs:__ Refers to illicit/recreational drugs, not those prescribed by doctors for medical conditions. 
+3. __Substance use:__ Refers to illicit/recreational drugs, not those prescribed by doctors for medical conditions. 
 
 4. __Environmental exposures:__ Exposure to various environmental factors, such as air pollution, water quality, and workplace hazards, that can impact an individual's health.
 
