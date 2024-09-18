@@ -125,5 +125,13 @@ There are two levels in the annotation process that the annotators should keep i
 
 * Occupations should be annotated by selecting "Occupations" as the attribute. 
 
+### Annotation process
+* The annotation process started by creating an initial set of annotation guidelines, which we improved through two rounds of refinement. 
+* For each of the three versions of the guidelines, two annotators annotated a new set of 15 abstracts, based on which we calculated the inter-annotator agreement.
+* The annotators were not allowed to be in contact and discuss any cases before metric calculation for each IAA round, so as not to affect the measurements and negatively affect the process.
+* A meeting was held after each round to discuss disagreements, update the guidelines, and clarify any ambiguities or gaps in the rules that caused the disagreements between the annotators.
+* Evaluating the quality of the manual annotations in terms of inter-annotator agreement gave an F1-score of 83%.
+* We subsequently annotated the entire LSF200 according to the final guidelines
+
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.
