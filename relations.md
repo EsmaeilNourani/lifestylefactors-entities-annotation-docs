@@ -90,8 +90,8 @@ Examples:
 ### What **NOT** to annotate:
 1. Hypothetical statements: 
 
-    “Here we study the link between LSF and disease”.\
-    "It is possible to suspect a relationship between ESRD and insecticides or pesticides".\
+    “Here we study the link between LSF and disease”.<br />
+    "It is possible to suspect a relationship between ESRD and insecticides or pesticides".<br />
     "LSF might be involved in Dis". → Take context into consideration in case this is no more than a hypothesis.
     
 2. Tendency but no statistical significance : 
@@ -101,8 +101,8 @@ Examples:
 3. No statistical test implied/ no control group comparison:
     
     “A majority percentage of HIV-positive MSM engage in unprotected sexual behavior”. → other individuals without HIV could have the same behavior.\
-    “A total of 45% of children receiving __LSF__ had no symptom recurrence of __disease__”.\
-    “In our study, __disease__ was very common in __LSF__ practitioners”.\
+    “A total of 45% of children receiving __LSF__ had no symptom recurrence of __disease__”.<br />
+    “In our study, __disease__ was very common in __LSF__ practitioners”.<br />
     “In our study, 54% of cancer patients suffer from poor sleep and 34% of low energy”. → What is problematic is not the lack of a significance report but the **absence of a control group** implication in all above cases. We cannot make an assumption that a statistical test was actually performed.
 
     _or_
@@ -124,7 +124,7 @@ Examples:
 
 
 ### Special rules for relationships:
-1. Across sentence boundaries should be annotated.
+1. Across sentence boundaries should be annotated.<br />In cases of co-reference ("this","it" etc.), annotate only the previous entity mention in the relation.<br />Annotate taking into account the wider context, not just the present sentence.<br />
 2. “Is believed” should be annotated.
 
     “Air pollutants are believed to induce or exacerbate a range of inflammatory diseases (atopic dermatitis...)”.
@@ -136,11 +136,11 @@ Examples:
 
 5. Be careful with an occupation + a clause with LSFs. 
 
-    In the following examples, farmers __should not__ be linked with acute lymphatic or chronic lymphatic leukemia.\ 
+    In the following examples, farmers __should not__ be linked with acute lymphatic or chronic lymphatic leukemia.<br />
 
-    “Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic”.\
+    “Farmers from major corn-producing, hog- and chicken-raising, and pesticide- and fertilizer-using counties tended to be at higher risk of acute lymphatic”.<br />
 
-    “Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia”.\
+    “Farmers from counties with large cattle inventories and significant dairy activity were at higher risk of chronic lymphatic leukemia”.<br />
 
 6. Annotate what the sentence says, even if there are contradictory statement. Example:
     
@@ -148,9 +148,9 @@ Examples:
 
     In contrast to the previous study, A causes C, or C causes B or no relation… : annotate either A causes C, C causes B or nothing
 
-7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.\
-8. Ambiguous/Hedging expressions (sentences such as “LSF MAY/MIGHT affect the development of Dis”):\
-     Annotate as affirmative statements only if the context provided by the rest of the sentence indicates significant findings produced in the study. For example, in sentence: “Our data suggest that LSF and/or other related sources MAY reduce the risk of Dis” → “our data suggest” suggests that a study was performed prior to this statement instead of it being a hypothesis to be tested. \
+7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.<br />
+8. Ambiguous/Hedging expressions (sentences such as “LSF MAY/MIGHT affect the development of Dis”):<br />
+     Annotate as affirmative statements only if the context provided by the rest of the sentence indicates significant findings produced in the study. For example, in sentence: “Our data suggest that LSF and/or other related sources MAY reduce the risk of Dis” → “our data suggest” suggests that a study was performed prior to this statement instead of it being a hypothesis to be tested.<br />
    
 
 9. Indirect relations:\
