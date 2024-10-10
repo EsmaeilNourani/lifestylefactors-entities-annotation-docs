@@ -148,21 +148,24 @@ Examples:
 
     In contrast to the previous study, A causes C, or C causes B or no relation… : annotate either A causes C, C causes B or nothing
 
-7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.
-
-8. Indirect relations:
-   a) Both direct and indirect associations should be annotated, for example in sentence 1: “LSF1 is associated with Dis, but the association seems to be mainly mediated by LSF2”. → annotate both LSF1 and LSF2 as statistically associated with Dis.
-      However, in cases such as sentence 2: “__LSF__ was not independently associated with __disease__” , do not annotate unless it specifically mentions that the LSF was dependently associated.
-   b) Do not annotate indirect relations that stem from deductive reasoning, for example in sentence 3: “LSF contributes to the inflammatory response. Inflammation can lead to various diseases such as Dis1, Dis2, Dis3”. → do not relate LSF with Dis1, Dis2, Dis3.
-      Consistently, do not annotate cases such as sentence 4: “Anthocyanins, commonly found in fruits and vegetables, help delay Dis in mouse models/cell cultures”. → only relate anthocyanins with Dis, not fruits and vegetables with Dis.
+7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.\
+8. Ambiguous/Hedging expressions (sentences such as “LSF MAY/MIGHT affect the development of Dis”):\
+     Annotate as affirmative statements only if the context provided by the rest of the sentence indicates significant findings produced in the study. For example, in sentence: “Our data suggest that LSF and/or other related sources MAY reduce the risk of Dis” → “our data suggest” suggests that a study was performed prior to this statement instead of it being a hypothesis to be tested. \
    
-9. Relationships like the following: 
+
+9. Indirect relations:\
+   a) Both direct and indirect associations should be annotated, for example in sentence 1: “LSF1 is associated with Dis, but the association seems to be mainly mediated by LSF2”. → annotate both LSF1 and LSF2 as statistically associated with Dis.\
+      However, in cases such as sentence 2: “__LSF__ was not independently associated with __disease__” , do not annotate unless it specifically mentions that the LSF was dependently associated.\
+   b) Do not annotate indirect relations that stem from deductive reasoning, for example in sentence 3: “LSF contributes to the inflammatory response. Inflammation can lead to various diseases such as Dis1, Dis2, Dis3”. → do not relate LSF with Dis1, Dis2, Dis3.\
+      Consistently, do not annotate cases such as sentence 4: “Anthocyanins, commonly found in fruits and vegetables, help delay Dis in mouse models/cell cultures”. → only relate anthocyanins with Dis, not fruits and vegetables with Dis.\
+   
+10. Relationships like the following: 
 
     __LSF1__ and __LSF2__ when present together cause disease __disease__, but when __LSF1__ is present alone it **does not** cause __disease__.
     
     Annotate as _LSF1 causes disease_, _LSF2 causes disease_ (for the first sentence) and no annotations between LSF1 and disease in the second sentence.
 
-10. Compared/comparison:
+11. Compared/comparison:
  a) if the comparison is between LSF/not having LSF or Dis/not having Dis then annotate only LSF to Dis with the appropriate relationship (not the not-LSF or not-Dis).
 
    “The seizure rate was significantly higher in cocaine users (37 [26%] of 142 patients) than in non-cocaine users (151 [15.2%] of 992 patients, p = 0.001)”. → Annotate Positive SA between cocaine and seizure.
@@ -170,15 +173,15 @@ Examples:
 
    “The proportion of patients working in professions with exposures to known carcinogens was 33.5% for lung cancer, and 17.1% for large bowel cancer (p=0.000)”. → carcinogens cause cancer, so since lung cancer patients were more likely to work in carcinogen exposed professions than LB cancer patients then it is safe to say that lung cancer is positively associated with carcinogens (no annotation for LB cancer)”.
 
-11. Annotate relationships even when they are not independent.
-12. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
+12. Annotate relationships even when they are not independent.
+13. Also consider numbers in ORs, HRs, RRs for the direction of the association, even if not specifically written in words as “positive” or “negative” (eg OR>1 means positive association and OR<1 means negative association).
 
    
    “__SO2__ was also significantly associated with __birth defects__ in the second month before the pregnancy (aOR = 1.31; 95% CI: 1.20 ~ 3.22)”.
 
-13. A __LSF__ used as defense for a __disease__. → annotate either as treats or prevents according to context.
+14. A __LSF__ used as defense for a __disease__. → annotate either as treats or prevents according to context.
       
-14. Annotate LSF and **Disease mortality** associations as LSF and **Disease**.
+15. Annotate LSF and **Disease mortality** associations as LSF and **Disease**.
     
 
     
