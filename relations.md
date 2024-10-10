@@ -150,9 +150,12 @@ Examples:
 
 7. Mentions of “the X-Y association” between an LSF X and a disease Y should be annotated as statistically associated relationships.
 
-8. Indirect relations should be annotated. However, in cases like “__LSF__ was not independently associated with __disease__” do not annotate unless it specifically mentions that the LSF was dependently associated.
-
-
+8. Indirect relations:
+   a) Both direct and indirect associations should be annotated, for example in sentence 1: “LSF1 is associated with Dis, but the association seems to be mainly mediated by LSF2”. → annotate both LSF1 and LSF2 as statistically associated with Dis.
+      However, in cases such as sentence 2: “__LSF__ was not independently associated with __disease__” , do not annotate unless it specifically mentions that the LSF was dependently associated.
+   b) Do not annotate indirect relations that stem from deductive reasoning, for example in sentence 3: “LSF contributes to the inflammatory response. Inflammation can lead to various diseases such as Dis1, Dis2, Dis3”. → do not relate LSF with Dis1, Dis2, Dis3.
+      Consistently, do not annotate cases such as sentence 4: “Anthocyanins, commonly found in fruits and vegetables, help delay Dis in mouse models/cell cultures”. → only relate anthocyanins with Dis, not fruits and vegetables with Dis.
+   
 9. Relationships like the following: 
 
     __LSF1__ and __LSF2__ when present together cause disease __disease__, but when __LSF1__ is present alone it **does not** cause __disease__.
