@@ -11,6 +11,7 @@ The scope of this annotation is to detect lifestyle factors which affect the ris
 
 * Annotations should be made according to the annotator’s best understanding of the __author’s intended meaning in context__. 
 * Annotators should treat named entities as being __masked__, i.e. they shouldn't annotate relationships between entities just based on their names, when they would be unable to make the same annotations for two other entities.
+* Annotators can assign multiple relationships between entities when applicable.
 
 ### What to annotate:
 
