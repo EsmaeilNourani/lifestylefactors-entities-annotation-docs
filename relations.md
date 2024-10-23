@@ -185,7 +185,7 @@ Examples:
 15. Annotate LSF and **Disease mortality** associations as LSF and **Disease**.
     
 
-### Annotation process
+## Annotation process
 * The annotation process started by creating an initial set of annotation guidelines, which we improved in the second round. 
 * Initial annotation guideline was formed and updated during a first round of Inter-Annotator Agreement (IAA) after three annotators individually annotated 30 abstracts and discussed their inconsistencies.
 * A second round of IAA was performed with a fourth annotator by annotating a new set of 30 abstracts to further update and solidify the final guidelines.
