@@ -154,11 +154,11 @@ Examples:
      Annotate as affirmative statements only if the context provided by the rest of the sentence indicates significant findings produced in the study. For example, in sentence: “Our data suggest that LSF and/or other related sources MAY reduce the risk of Dis” → “our data suggest” suggests that a study was performed prior to this statement instead of it being a hypothesis to be tested.<br />
    
 
-9. Indirect relations:\
-   a) Both direct and indirect associations should be annotated, for example in sentence 1: “LSF1 is associated with Dis, but the association seems to be mainly mediated by LSF2”. → annotate both LSF1 and LSF2 as statistically associated with Dis.\
-      However, in cases such as sentence 2: “__LSF__ was not independently associated with __disease__” , do not annotate unless it specifically mentions that the LSF was dependently associated.\
-   b) Do not annotate indirect relations that stem from deductive reasoning, for example in sentence 3: “LSF contributes to the inflammatory response. Inflammation can lead to various diseases such as Dis1, Dis2, Dis3”. → do not relate LSF with Dis1, Dis2, Dis3.\
-      Consistently, do not annotate cases such as sentence 4: “Anthocyanins, commonly found in fruits and vegetables, help delay Dis in mouse models/cell cultures”. → only relate anthocyanins with Dis, not fruits and vegetables with Dis.\
+9. Indirect relations:<br />
+   a) Both direct and indirect *stated* associations should be annotated, for example in sentence 9a: “LSF1 is associated with Dis, but the association seems to be mainly mediated by LSF2”. → annotate both LSF1 and LSF2 as statistically associated with Dis.<br />
+      However, in cases such as sentence 9b: “__LSF__ was not independently associated with __disease__” → do not annotate unless specifically mentioned that the LSF was dependently associated.<br />
+   b) Do not annotate indirect relations when they are *implied* but not *stated*, for example in sentence 9c: “LSF contributes to the inflammatory response. Inflammation can lead to various diseases such as Dis1, Dis2, Dis3”. → do not relate LSF with Dis1, Dis2, Dis3.<br />
+      Consistently, do not annotate cases such as sentence 9d: “Anthocyanins, commonly found in fruits and vegetables, help delay Dis in mouse models/cell cultures”. → only relate anthocyanins with Dis, not fruits and vegetables with Dis.<br />
    
 10. Relationships like the following: 
 
@@ -170,7 +170,7 @@ Examples:
  a) if the comparison is between LSF/not having LSF or Dis/not having Dis then annotate only LSF to Dis with the appropriate relationship (not the not-LSF or not-Dis).
 
    “The seizure rate was significantly higher in cocaine users (37 [26%] of 142 patients) than in non-cocaine users (151 [15.2%] of 992 patients, p = 0.001)”. → Annotate Positive SA between cocaine and seizure.
- b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied if the comparison were cancer/healthy controls or **do not annotate at all** if assuming is not possible.\
+ b) if the comparison is between separate things (eg one type of cancer to another) then annotate based on the direction you would assume could be applied if the comparison were cancer/healthy controls or **do not annotate at all** if assuming is not possible.<br />
 
    “The proportion of patients working in professions with exposures to known carcinogens was 33.5% for lung cancer, and 17.1% for large bowel cancer (p=0.000)”. → carcinogens cause cancer, so since lung cancer patients were more likely to work in carcinogen exposed professions than LB cancer patients then it is safe to say that lung cancer is positively associated with carcinogens (no annotation for LB cancer)”.
 
