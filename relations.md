@@ -125,7 +125,7 @@ Examples:
 
 
 ### Special rules for relationships:
-1. Across sentence boundaries should be annotated.<br />In cases of co-reference ("this","it" etc.), annotate only the previous entity mention in the relation.<br />Annotate taking into account the wider context, not just the present sentence.<br />
+1. Across sentence boundaries should be annotated.<br />In cases of co-reference ("this","it" etc.), annotate linking only the closest entity mention in the relation.<br />Annotate taking into account the wider context, not just the present sentence.<br />
 2. “Is believed” should be annotated.
 
     “Air pollutants are believed to induce or exacerbate a range of inflammatory diseases (atopic dermatitis...)”.
